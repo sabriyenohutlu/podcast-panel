@@ -1,0 +1,13 @@
+.sidebar {
+    background-color: var(--sbg);
+    height: 100%;
+    color: white;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+
+    &-itemList {
+        width: 100%;
+    }
+}
