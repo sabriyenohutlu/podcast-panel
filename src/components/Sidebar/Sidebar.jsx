@@ -29,7 +29,7 @@ const Sidebar = () => {
       icon: <LibraryMusicIcon />,
       id: 3,
       to: "/kategoriler",
-      nested: true,
+      nested: false,
       nest: [
         {
           label: "Kategori Ekle",

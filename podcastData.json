@@ -5,6 +5,7 @@
         "summary":"",
         "img":"",
         "mp3":"",
+        "category":"",
         "speaker":"",
         "publishedDate":""
     },
@@ -14,6 +15,7 @@
         "summary":"",
         "img":"",
         "mp3":"",
+        "category":"",
         "speaker":"",
         "publishedDate":""
     }

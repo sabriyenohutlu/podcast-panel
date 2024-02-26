@@ -1,0 +1,23 @@
+.category-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  &__label {
+  }
+  &__input {
+    height: 50px;
+    width: 250px;
+  }
+  .btn-submit {
+    height: 3rem;
+    width: 6rem;
+    margin: 1rem;
+    background-color: var(--activeLink);
+    border: 1px solid gray;
+    color: white;
+    cursor: pointer;
+  }
+}

@@ -1,19 +1,19 @@
-import Sidebar from "../../components/Sidebar/Sidebar";
 import Header from "../../components/Header/Header";
-import PodcastsTable from "../../components/PodcastsTable/PodcastsTable";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import UpdatePodcast from "../../components/UpdatePodcast/UpdatePodcast";
 
-const Podcastler = () => {
+const EditPodcastPage = () => {
   return (
     <div className="container">
     <Sidebar />
     <div className="wrapper">
       <Header />
       <div className="page">
-        <PodcastsTable />
+        <UpdatePodcast/>
       </div>
     </div>
   </div>
   )
 }
 
-export default Podcastler
+export default EditPodcastPage

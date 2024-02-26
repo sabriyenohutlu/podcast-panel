@@ -1,0 +1,24 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+
+  &-delete {
+    color: #1f263e;
+
+    &:hover {
+      color: #50b8e4;
+    }
+  }
+  &-edit {
+    a {
+      color: #1f263e;
+
+      &:hover {
+        color: #50b8e4;
+      }
+    }
+  }
+}

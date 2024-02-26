@@ -11,6 +11,7 @@ import Podcastler from "./pages/Podcastler/Podcastler";
 import Kategoriler from "./pages/Kategoriler/Kategoriler";
 import KategoriEkle from "./pages/KategoriEkle/KategoriEkle";
 import PodcastEkle from "./pages/PodcastEkle/PodcastEkle";
+import EditPodcastPage from "./pages/EditPodcastPage/EditPodcastPage";
 
 import "./App.scss";
 
@@ -21,11 +22,9 @@ const router = createBrowserRouter(
       <Route path="/podcastler">
         <Route index element={<Podcastler />} />
         <Route path="/podcastler/podcastekle" element={<PodcastEkle />} />
+        <Route path="/podcastler:id" element={<EditPodcastPage/>}/>
       </Route>
-      <Route path="/kategoriler" >
-      <Route index element={<Kategoriler />} />
-      <Route path="/kategoriler/kategoriekle" element={<KategoriEkle />} />
-      </Route>
+      <Route path="/kategoriler" element={<Kategoriler />}></Route>
     </Route>
   )
 );
